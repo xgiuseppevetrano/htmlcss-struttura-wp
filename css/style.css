@@ -1,0 +1,12 @@
+/* colori
+header: #E579E6;
+prima sezione main: #E1D67A;
+seconda sezione main: #ABCFE7;
+background seconda sezione main: #008BF3;
+footer: #8801FE; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
