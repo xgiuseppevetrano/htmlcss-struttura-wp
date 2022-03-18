@@ -1,7 +1,14 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* COMMONS */
+.container {
+    margin: auto;
+    width: 1280px;
 }
 
 .clearfix::after {
@@ -10,51 +17,59 @@
     clear: both;
 }
 
-.container {
-    margin: 0 auto;
-    width: 1000px;
-}
-
-.title {
+/* DEBUG */
+.debug header {
     background-color: #E579E6;
-    height: 100px;
-    margin-top: 20px;
+    min-height: 150px;
 }
 
-.nav {
+.debug .hero {
     background-color: #E1D67A;
-    min-height: 350px;
-    margin-top: 20px;
+    min-height: 500px;
 }
 
-.box {
+.debug .leadership {
     background-color: #008BF3;
-    margin-top: 20px;
 }
 
-.riga {
+.debug .leadership-title {
     background-color: #ABCFE7;
-    min-height: 50px;
+    min-height: 100px;
+}
+
+.debug .col-left,.debug .col-middle, .debug .col-right {
+    background-color: #ABCFE7;
+    min-height: 300px;
+}
+
+.debug footer {
+    background-color: #8801FE;
+    min-height: 60px;
+}
+
+/* HEADER */
+header {
     margin-bottom: 20px;
 }
 
-.col-left, .col-right {
-    background-color: #ABCFE7;
+/* MAIN */
+.hero {
+    margin-bottom: 20px;
+}
+
+.columns {
+    margin: 15px 0;
+}
+
+.col-left, .col-middle, .col-right {
     float: left;
-    min-height: 400px;
+}
+
+.col-left, .col-right {
     width: 20%;
 }
 
 .col-middle {
-    background-color: #ABCFE7;
-    float: left;
-    min-height: 400px;
-    width: calc(60% - 20px);
-    margin: 0 10px 20px;
-}
-
-.foot {
-    background-color: #8801FE;
-    margin: 10px 0 20px;
-    height: 40px;
+    width: calc(60% - 40px);
+    margin: auto 20px;
 }
